@@ -1,0 +1,457 @@
+<html>
+  <head>
+        <link rel="icon" href="icon.png">
+        <title>Earth</title>
+    </head>
+
+       <style>
+
+        body{
+          padding:0px;
+          margin:0px;
+        }
+
+        #header{
+            position: fixed;
+            background-image:url("sky.jpg");
+            width: 100%;
+            height:100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        #h1{
+          
+            background: linear-gradient(white,rgb(21, 165, 248));
+            color:transparent;
+            background-clip: text;
+            font-size :21px;
+            font-family: Georgia;
+            text-decoration:none;
+
+        }
+       
+
+        a{
+            background: linear-gradient(rgb(255, 255, 255),rgb(72, 179, 241));
+            color:transparent;
+            background-clip: text;
+            font-size :21px;
+            font-family: Georgia;
+            text-decoration:none;  
+        }
+
+        a:hover{
+            font-size: 23px;
+            border: 1px solid white;
+            color:rgb(255, 255, 255)
+        }
+
+        
+        #pages{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+            padding:0px 50px;
+        }
+
+         .container{
+            background-image:url("bg1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display :flex;
+            width:100%;
+            height:600px;
+            justify-content: center;
+            font-family:Times New Roman;
+            
+        }
+        
+ #elm_img1 {
+                background-image:url("element.jpg") ;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 700px;
+                background-position: right;
+                flex-direction: column;
+                padding-left: 50%;
+                padding-right: 10%;
+                
+            }
+h1.title{
+      text-align: center;
+      color:#0b1e61;
+      font-size:36px;
+    }
+  
+    .prithvi h1{
+      color:white;
+      padding-left:20px;
+      padding-right:20px;
+    
+    }
+
+    .prithvi {
+    cursor: url(prithvi_logo.png) auto;
+      display: flex;
+      align-items: center;
+      border: 3px solid rgb(91, 178, 222);
+      background-color: rgb(74, 93, 110);
+      margin: 10px 10px;
+      padding: 10px;
+      border-radius: 10px;
+      
+    }
+
+   .prithvi img {
+      width: 250px;
+      height: 200px;
+      border-radius: 35px;
+      border: 3px solid beige ;
+    }
+
+     .sky h1{
+      color:white;
+      padding-left:20px;
+      padding-right:20px;
+
+    }
+
+    .sky {
+      display: flex;
+      align-items: center;
+      border: 3px solid rgb(91, 178, 222);
+      background-color: rgb(74, 93, 110);
+      margin: 10px 10px;
+      padding: 10px;
+      border-radius: 10px;
+      
+    }
+
+   .sky img {
+      width: 250px;
+      height: 200px;
+      border-radius: 35px;
+      border: 3px solid beige ;
+    }
+
+    .water h1{
+      color:white;
+      padding-left:20px;
+      padding-right:20px;
+
+    }
+
+    .water {
+      display: flex;
+      align-items: center;
+      border: 3px solid rgb(91, 178, 222);
+      background-color: rgb(74, 93, 110);
+      margin: 10px 10px;
+      padding: 10px;
+      border-radius: 10px;
+      
+    }
+
+   .water img {
+      width: 250px;
+      height: 200px;
+      border-radius: 35px;
+      border: 3px solid beige ;
+    }
+
+    .fire h1{
+      color:white;
+      padding-left:20px;
+      padding-right:20px;
+
+    }
+
+    .fire {
+      display: flex;
+      align-items: center;
+      border: 3px solid rgb(91, 178, 222);
+      background-color: rgb(74, 93, 110);
+      margin: 10px 10px;
+      padding: 10px;
+      border-radius: 10px;
+      
+    }
+
+   .fire img {
+      width: 250px;
+      height: 200px;
+      border-radius: 35px;
+      border: 3px solid beige ;
+    }
+
+     .air h1{
+      color:white;
+      padding-left:20px;
+      padding-right:20px;
+
+    }
+
+    .air{
+      display: flex;
+      align-items: center;
+      border: 3px solid rgb(91, 178, 222);
+      background-color: rgb(74, 93, 110);
+      margin: 10px 10px;
+      padding: 10px;
+      border-radius: 10px;
+      
+    }
+
+   .air img {
+      width: 250px;
+      height: 200px;
+      border-radius: 35px;
+      border: 3px solid beige ;
+    }
+
+    .gap1 {
+        padding-right:  10px;
+    }
+
+    .gap2 {
+        padding-left: 10px;
+    }
+
+
+       footer{
+
+        text-align:center;
+        color:#02155c;
+      
+      }
+       #button{
+
+    border-radius: 5px;
+    height: 30px;
+    background-color:#0e93eb ;
+    color:rgba(255, 255, 255, 0.95);
+    text-align:center;
+    cursor:pointer;
+   }
+
+   #button:hover {
+        background-color:#04275a;
+        color:#fcfcfc; 
+    }
+    </style>
+     <body style="padding: 0;margin: 0;cursor:url('earth_logo.png') auto;">
+       <header>
+
+            <div id="header">
+
+                <div>
+
+                <img src="logo1.jpg" width="100" height="100">
+
+                </div>
+
+                <div id="h1">
+                 
+                  <h1 style="font-family:Georgia;letter-spacing:3px;">Mother Earth</h1>
+
+                </div>
+                
+
+                  <div id="pages" style="padding-top:15px">
+
+                    <a href="index.html">HOME</a>
+                    <a href="history.html">HISTORY</a>
+                    <a href="elements.html">ELEMENTS</a>
+                    <a href="georise.html">GEORISE</a>
+                   
+                  </div>
+
+            </div>
+           
+
+        </header>
+        
+        <br><br><br><br><br>
+
+        <div>
+
+
+<div style="position: fixed;width: 100%;border: 1px solid black;display: flex;align-items: center;
+background-color: rgba(0, 14, 41, 0.594);
+justify-content: space-between;
+        ">
+        
+      <h1 class="title"><span style="background-color:rgb(255, 255, 255)">🌍Essence of Earth:The Five Elements</span></h1>
+      <img src="side.jpg" width="200px" ></div>
+      <hr>
+
+      <div id="elm_img1">
+        <div class=" text-block" style="text-align:justify;" >
+          <p style="text-align:justify;color: white; font-size: 22px;padding-top: 330px;padding-left: 200px;">
+            <i> "Treat me kindly,little ones.
+             I carried you through fire and ocean,through strom and sky. Iam your story, your soil, your sacred ground."
+            </i>
+        </p>
+</div>
+      </div>
+      <div class="prithvi"  >
+
+        <img src="prithvi.jpg">
+
+    
+          <div style="text-align:justify;">
+
+            
+            <h1>Prithvi(Land)🌎</h1>
+            
+
+            <p class="gap2" style="color:bisque">
+
+             I am Prithvi, ancient Mother Earth and giver of life. Since creation’s dawn, I have nurtured forests, 
+            rivers, and humanity from my fertile embrace. Born when sky and land divided, my form became pastures, 
+            mountains, and every field.With Dyaus, the Sky Father, I am both partner and parent. His rains, received 
+            by my soil, birth endless abundance. King Prithu sought my help to end hunger, and I responded, teaching
+             farming and the art of living harmoniously with nature.
+
+
+            </p>
+
+          </div>
+        
+        </div>
+          
+       
+<hr>
+        <div class="sky"  >
+
+          <div style="text-align:justify;">
+
+            <h1 align="right">Sky🌫</h1>
+
+            <p class="gap1" style="color:bisque">
+
+              I am Sky, known to the ancients as Dyaus, the ever-expansive vault who cradles the world in limitless embrace.
+               I was born in the silent dawn of creation, when chaos parted and order first breathed across empty space. From
+                my boundless heights, I arc over mountains and oceans, the eternal witness to the dance of earth and life.
+                My robes are woven from sunlit azure, twilight violet, and the indigo quilt of night that I drape over sleeping 
+                lands. Each day, I awaken Earth with golden rays, blessing the world with the warmth and light that are my gifts.
+            </p>
+
+          </div>
+
+         
+          <img src="sky_img.jpg">
+
+      
+
+        </div>
+<hr>
+           
+        <div class="water"  >
+    
+          <img src="water.jpg">
+
+          <div style="text-align:justify;">
+
+            <h1>Water🌊</h1>
+            
+            <p class="gap2" style="color:bisque">
+              
+             I am Water, the ancient life-bringer, the silver thread that winds its way through earth, sky,
+              and every living being. From the very first monsoon to the last glisten of morning dew, I am the
+               pulse of creation—restless, nourishing, ever-changing. My journey began in primal oceans, where the
+                seeds of life stirred and awoke, and since that moment I have flowed endlessly, shaping continents
+                 and stories alike. I am the gentle rain that kisses fields awake, the roaring river that carves 
+                 valleys, and the silent drop that rests in a child’s cupped hands.
+
+            </p>
+
+            </div>
+
+          </div>
+
+<hr>
+
+      <div class="fire" >
+
+          <div style="text-align:justify;">
+
+            <h1 align="right">Fire🔥</h1>
+
+            <p class="gap1" style="color:bisque">
+
+              I am Fire, called Agni in the ancient Vedas, the luminous spirit at the heart of every dawn, hearth,
+               and star. Born from the friction of worlds and the first spark of creation, I am energy incarnate—the 
+               vibrant pulse that animates the universe. My essence flickers in the world’s molten core, leaps in the 
+               blazing sun, and lingers in the gentle glow of a candle’s flame. I am both a fearsome force and a 
+               cherished ally, weaving through myths and shaping destinies with every dancing tongue of light.
+
+            </p>
+
+          </div>
+
+            <img src="fire.jpg">
+
+
+
+        </div>     
+<hr>
+ <div class="air"   >
+
+    
+          <img src="air.jpg">
+
+          
+
+          <div style="text-align:justify;">
+
+            <h1>Air🌬</h1>
+            
+            <p  class="gap2" style="color:bisque">
+              
+             I am Air—the unseen dancer, called Vayu by the ancients and known since the world’s first awakening as 
+             the breath that stirs all things. I was born in the first sigh between heaven and earth, the silent current 
+             giving shape to life’s song. You cannot see me, yet I am everywhere: swirling gently across meadows, roaring
+             as gale upon the ocean, slipping quietly through open windows and deep forests. I am the playful breeze
+              that ruffles new leaves, the restless force that shapes clouds and guides birds along invisible pathways. 
+              With every breath you take, my energy moves within you; I am your first cry at birth and the last sigh at
+               life’s gentle farewell.
+            </p>
+
+            </div>
+
+          </div>
+
+          </div>
+
+           <footer>
+
+              
+
+              <center>
+
+                <a href="#top"> 
+          
+                  <button  id="button">
+
+                    <b>Go To Top</b>
+
+                 </button>
+
+                </a>
+
+              </center>
+
+      </footer>
+
+    
+
+       
+
+
+    
+</body>
+</html>
